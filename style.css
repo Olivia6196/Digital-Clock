@@ -25,6 +25,7 @@ body{
 
 .screen{
     font-size: 7rem;
+    width: 88%;
     border: 0.4vw solid #727171;
     margin: 4vw 2vw;
     padding: 5vw 6vw;
@@ -65,4 +66,32 @@ body{
     left: 62%;
     border-bottom-left-radius:1.1vw ;
     border-bottom-right-radius:1.1vw ;
+}
+
+@media (max-width:768px) {
+    .digital-container{
+       width: 74%;
+       top: 30vw;
+       left: 12.5%;
+    }
+    .screen{
+         font-size: 5rem;
+         margin: 6.5vw 2vw;
+         height: 25vw;
+    }
+    .box1{
+        top: 30.2vw;
+        border: 0.9vw solid #727171;
+        background-color: #727171;
+    }
+    .box2{
+        top: 70vw;
+        background-color: #727171;
+        border: 1.2vw solid #727171;
+    }
+    .box3{
+        top: 70vw;
+        background-color: #727171;
+        border: 1.2vw solid #727171;
+    }
 }
