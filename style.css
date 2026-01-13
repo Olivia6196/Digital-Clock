@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.digital-container{
+    border: 0.5vw solid #727171;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    top: 6vw;
+    border-radius: 4.7vw;
+    background-color: #919090;
+    box-shadow: inset 4px 4px 7px white,
+                inset -4px -4px 7px white;
+}
+
+.screen{
+    font-size: 7rem;
+    border: 0.4vw solid #727171;
+    margin: 6vw 8vw;
+    padding: 5vw 6vw;
+    color: limegreen;
+    border-radius: 1.6vw;
+    background-color: #000000fa;
+    box-shadow: inset 4px 4px 6px #9b9a9a,
+                inset -4px -4px 6px #9b9a9a;
+    position: relative;
+}
+#meridiem{
+    font-size: 3rem;
+    position: absolute;
+}
+.box1{
+    position: relative;
+    border: 0.7vw solid #727171;
+    width: 5vw;
+    top: 6vw;
+    left: 30%;
+    border-top-left-radius: 1.1vw;
+    border-top-right-radius: 1.1vw;
+}
+.box2{
+    position: absolute;
+    border: 1vw solid #727171;
+    width: 8vw;
+    top: 40.2vw;
+    left: 30%;
+    border-bottom-left-radius:1.1vw ;
+    border-bottom-right-radius:1.1vw ;
+}
+.box3{
+    position: absolute;
+    border: 1vw solid #727171;
+    width: 8vw;
+    top: 40.2vw;
+    left: 62%;
+    border-bottom-left-radius:1.1vw ;
+    border-bottom-right-radius:1.1vw ;
+}
