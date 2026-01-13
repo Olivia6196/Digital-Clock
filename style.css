@@ -11,7 +11,7 @@ body{
 
 .digital-container{
     border: 0.5vw solid #727171;
-    width: 60%;
+    width: 58%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -26,7 +26,7 @@ body{
 .screen{
     font-size: 7rem;
     border: 0.4vw solid #727171;
-    margin: 6vw 8vw;
+    margin: 4vw 2vw;
     padding: 5vw 6vw;
     color: limegreen;
     border-radius: 1.6vw;
@@ -41,18 +41,18 @@ body{
 }
 .box1{
     position: relative;
-    border: 0.7vw solid #727171;
-    width: 5vw;
+    border: 0.45vw solid #727171;
+    width: 40vw;
     top: 6vw;
     left: 30%;
-    border-top-left-radius: 1.1vw;
-    border-top-right-radius: 1.1vw;
+    border-top-left-radius: 1.8vw;
+    border-top-right-radius: 1.8vw;
 }
 .box2{
     position: absolute;
     border: 1vw solid #727171;
     width: 8vw;
-    top: 40.2vw;
+    top: 36vw;
     left: 30%;
     border-bottom-left-radius:1.1vw ;
     border-bottom-right-radius:1.1vw ;
@@ -61,7 +61,7 @@ body{
     position: absolute;
     border: 1vw solid #727171;
     width: 8vw;
-    top: 40.2vw;
+    top: 36vw;
     left: 62%;
     border-bottom-left-radius:1.1vw ;
     border-bottom-right-radius:1.1vw ;
