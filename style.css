@@ -122,15 +122,15 @@ body{
         border-radius: 5vw;
     }
     .screen{
-        font-size: 3.1rem;
+        font-size: 3rem;
         width: 90%;
         height: 32vw;
         border: 1.2vw solid #5c5b5b;
         border-radius: 3vw;
     }
     #meridiem{
-        font-size: 1.7rem;
-        right: 3vw;
+        font-size: 1.6rem;
+        /* right: 5vw; */
     }
     .date{
         font-size: 1.6rem;
