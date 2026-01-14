@@ -115,7 +115,7 @@ body{
 @media (max-width:430px) {
     .digital-container{
         width: 80%;
-        top: 42vw;
+        top: 50vw;
         border: 1.2vw solid #727171;
         left: 10%;
         background-color: #838383;
@@ -130,6 +130,7 @@ body{
     }
     #meridiem{
         font-size: 1.6rem;
+        top: 5.7vw;
         /* right: 5vw; */
     }
     .date{
@@ -137,19 +138,19 @@ body{
         left: 15vw;
     }
     .box1{
-        top: 42vw;
+        top: 50vw;
         height: 3.3vw;
         width: 43vw;
     }
     .box2{
-        top: 92.3vw;
+        top: 100.5vw;
         height: 4vw;
         width: 12vw;
         border-bottom-left-radius:1.5vw ;
         border-bottom-right-radius:1.5vw ;
     }
     .box3{
-        top: 92.3vw;
+        top: 100.5vw;
         height: 4vw;
         width: 12vw;
         border-bottom-left-radius:1.5vw ;
@@ -160,23 +161,32 @@ body{
 @media (max-width:360px) {
     .digital-container{
         border-radius: 6vw;
+        width: 88%;
+        left: 6%;
+        top: 80vw;
     }
     .screen{
-        font-size: 2.3rem;
+        font-size: 2.7rem;
         border-radius: 4vw;
+        width: 92%;
+        height: 34vw;
     }
     #meridiem{
         font-size: 1.5rem;
-        right: 4vw;
+        /* right: 4vw; */
     }
     .date{
         font-size: 1.4rem;
-        left: 12.5vw;
+        left: 13.5vw;
+    }
+   .box1{
+        top: 80vw;
     }
     .box2{
-        top: 92.5vw;
+        top: 132.5vw;
     }
     .box3{
-        top: 92.5vw;
-    }
+        top: 132.5vw;
+    }   
+   
 }
