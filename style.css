@@ -87,11 +87,13 @@ body{
        width: 74%;
        top: 30vw;
        left: 12.5%;
+       border: 0.8vw solid #727171;
     }
     .screen{
          font-size: 5rem;
          margin: 6.5vw 2vw;
-         height: 25vw;
+         height: 26vw;
+         border: 0.8vw solid #5c5b5b;
     }
     .box1{
         top: 30.2vw;
@@ -99,13 +101,66 @@ body{
         background-color: #030303;
     }
     .box2{
-        top: 70vw;
+        top: 72vw;
         background-color: #070707;
         border: 1.2vw solid #050505;
     }
     .box3{
-        top: 70vw;
+        top: 72vw;
         background-color: #070707;
         border: 1.2vw solid #050505;
+    }
+}
+
+@media (max-width:430px) {
+    .digital-container{
+        width: 80%;
+        top: 42vw;
+        border: 1.2vw solid #727171;
+        left: 10%;
+        background-color: #838383;
+    }
+    .screen{
+        font-size: 3.1rem;
+        width: 90%;
+        height: 32vw;
+        border: 1.2vw solid #5c5b5b;
+    }
+    #meridiem{
+        font-size: 1.7rem;
+        right: 3vw;
+    }
+    .date{
+        font-size: 1.6rem;
+        left: 15vw;
+    }
+    .box1{
+        top: 42vw;
+        height: 3.3vw;
+        width: 43vw;
+    }
+    .box2{
+        top: 92vw;
+        height: 4vw;
+        width: 12vw;
+    }
+    .box3{
+        top: 92vw;
+        height: 4vw;
+        width: 12vw;
+    }
+}
+
+@media (max-width:360px) {
+    .screen{
+        font-size: 2.5rem;
+    }
+    #meridiem{
+        font-size: 1.5rem;
+        right: 4vw;
+    }
+    .date{
+        font-size: 1.4rem;
+        left: 13.5vw;
     }
 }
