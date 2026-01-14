@@ -29,20 +29,34 @@ body{
     border: 0.4vw solid #727171;
     margin: 4vw 2vw;
     padding: 5vw 6vw;
-    color: limegreen;
+    color: #9affc3;
     border-radius: 1.6vw;
     background-color: #000000fa;
     box-shadow: inset 4px 4px 6px #9b9a9a,
                 inset -4px -4px 6px #9b9a9a;
     position: relative;
+    text-shadow: 0 0 2px #9affc3,
+                 0 0 6px #00ff99,
+                 0 0 14px #00ff99,
+                 0 0 24px #00cc66;
 }
 #meridiem{
     font-size: 3rem;
     position: absolute;
 }
+.date{
+    font-size: 2rem;
+    color: #caffca;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px #caffea,
+                 0 0 6px #00ff99;
+                 text-align: center;
+    position: absolute;
+    left: 17vw;
+}
 .box1{
     position: relative;
-    border: 0.45vw solid #727171;
+    border: 0.45vw solid #080808;
     width: 40vw;
     top: 6vw;
     left: 30%;
@@ -51,7 +65,7 @@ body{
 }
 .box2{
     position: absolute;
-    border: 1vw solid #727171;
+    border: 1vw solid #080808;
     width: 8vw;
     top: 36vw;
     left: 30%;
@@ -60,7 +74,7 @@ body{
 }
 .box3{
     position: absolute;
-    border: 1vw solid #727171;
+    border: 1vw solid #050505;
     width: 8vw;
     top: 36vw;
     left: 62%;
@@ -81,17 +95,17 @@ body{
     }
     .box1{
         top: 30.2vw;
-        border: 0.9vw solid #727171;
-        background-color: #727171;
+        border: 0.9vw solid #080808;
+        background-color: #030303;
     }
     .box2{
         top: 70vw;
-        background-color: #727171;
-        border: 1.2vw solid #727171;
+        background-color: #070707;
+        border: 1.2vw solid #050505;
     }
     .box3{
         top: 70vw;
-        background-color: #727171;
-        border: 1.2vw solid #727171;
+        background-color: #070707;
+        border: 1.2vw solid #050505;
     }
 }

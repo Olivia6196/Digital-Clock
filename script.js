@@ -9,6 +9,15 @@ function makeItWork() {
     const timeString = `${hours}:${minutes}:${seconds}`;
     document.getElementById("time").textContent = timeString;
     document.getElementById("meridiem").textContent = meridiem;
+
+    const days = ["SUN", "MON", "TUE", "WED", "THUR", "FRI", "SAT"];
+    const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+    const dayName = days[recentTime.getDay()];
+    const day = recentTime.getDate();
+    const month = months[recentTime.getMonth()];
+    document.getElementById("date").textContent = 
+    `${dayName}, ${month} ${day}`;
 }
 
 makeItWork();
