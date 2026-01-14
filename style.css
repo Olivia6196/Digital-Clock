@@ -119,12 +119,14 @@ body{
         border: 1.2vw solid #727171;
         left: 10%;
         background-color: #838383;
+        border-radius: 5vw;
     }
     .screen{
         font-size: 3.1rem;
         width: 90%;
         height: 32vw;
         border: 1.2vw solid #5c5b5b;
+        border-radius: 3vw;
     }
     #meridiem{
         font-size: 1.7rem;
@@ -140,20 +142,28 @@ body{
         width: 43vw;
     }
     .box2{
-        top: 92vw;
+        top: 92.3vw;
         height: 4vw;
         width: 12vw;
+        border-bottom-left-radius:1.5vw ;
+        border-bottom-right-radius:1.5vw ;
     }
     .box3{
-        top: 92vw;
+        top: 92.3vw;
         height: 4vw;
         width: 12vw;
+        border-bottom-left-radius:1.5vw ;
+        border-bottom-right-radius:1.5vw ;
     }
 }
 
 @media (max-width:360px) {
+    .digital-container{
+        border-radius: 6vw;
+    }
     .screen{
         font-size: 2.5rem;
+        border-radius: 4vw;
     }
     #meridiem{
         font-size: 1.5rem;
@@ -162,5 +172,11 @@ body{
     .date{
         font-size: 1.4rem;
         left: 13.5vw;
+    }
+    .box2{
+        top: 92.5vw;
+    }
+    .box3{
+        top: 92.5vw;
     }
 }
